@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58a5fe1e-b38e-4e58-9c55-72d27e6fe47d" name="Changes" comment="removed mongodb">
+      <change afterPath="$PROJECT_DIR$/src/handlers/commands/ban.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/UserInGroup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/User.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locales/en/error.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/locales/en/error.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locales/en/welcome.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/locales/en/welcome.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handlers/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handlers/commands/query.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/commands/query.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/handlers/commands/start.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/commands/start.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/env.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/env.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/openai.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/openai.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/configurefluent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/configurefluent.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KEyX1DJ3EdxETIbveBdf6nVWMW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/honey/Projects/Nodejs Apps/Telegram Related /Telegram_Bot/misc/safe-dev-cn-openai-baseai-tg-bot/src/models",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/honey/Projects/Nodejs Apps/Telegram Related /Telegram_Bot/misc/safe-dev-cn-openai-baseai-tg-bot/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/models" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58a5fe1e-b38e-4e58-9c55-72d27e6fe47d" name="Changes" comment="" />
+      <created>1673554072985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673554072985</updated>
+      <workItem from="1673554074435" duration="4787000" />
+      <workItem from="1673606015836" duration="4000" />
+      <workItem from="1674820976600" duration="2471000" />
+      <workItem from="1674901984153" duration="1189000" />
+      <workItem from="1675630859360" duration="1023000" />
+      <workItem from="1675790830162" duration="2631000" />
+      <workItem from="1675879591341" duration="827000" />
+      <workItem from="1675885287568" duration="131000" />
+      <workItem from="1677685243945" duration="206000" />
+      <workItem from="1677685461803" duration="1115000" />
+    </task>
+    <task id="LOCAL-00001" summary="removed mongodb">
+      <created>1675880077970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675880077970</updated>
+    </task>
+    <task id="LOCAL-00002" summary="removed mongodb">
+      <created>1675880226523</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675880226523</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT_PROFILE" value="Project Default" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="removed mongodb" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed mongodb" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>
