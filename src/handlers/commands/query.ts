@@ -10,14 +10,19 @@ export default async function handlequery(ctx: Context) {
 
   const user = await UserModel.getUserByTelegramId(ctx.from.id)
 
-  if (!user) {
-    return ctx.reply(ctx.t('error.noUser'))
-  }
-  if (user.banned) {
-    return ctx.reply(ctx.t('error.banned'))
+  if (user) {
+    // return ctx.reply(ctx.t('error.noUser'))
+
+    if (user.banned) {
+      return ctx.reply(ctx.t('error.banned'))
+    }
   }
 
   const userExitsGroup = await userExitsInGroup(ctx.from.id)
+
+  if (userExitsGroup === 'error') {
+    return ctx.reply(`Can't check if you are in the group`)
+  }
 
   if (!userExitsGroup) {
     return ctx.reply(
@@ -27,7 +32,7 @@ export default async function handlequery(ctx: Context) {
     )
   }
 
-  const query = ctx.msg?.text?.split(' ').slice(1).join(' ')
+  const query = ctx.msg?.text?.split(' ')?.slice(1)?.join(' ')
 
   if (!query) return ctx.reply(ctx.t('error.noquery'))
 

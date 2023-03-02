@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58a5fe1e-b38e-4e58-9c55-72d27e6fe47d" name="Changes" comment="removed mongodb">
-      <change afterPath="$PROJECT_DIR$/src/handlers/commands/ban.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/UserInGroup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/User.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locales/en/error.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/locales/en/error.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/locales/en/welcome.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/locales/en/welcome.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/handlers/commands/query.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/commands/query.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/handlers/commands/start.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/commands/start.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/UserInGroup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/UserInGroup.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/helpers/env.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/env.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/openai.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/openai.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/configurefluent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/configurefluent.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,25 +31,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/honey/Projects/Nodejs Apps/Telegram Related /Telegram_Bot/misc/safe-dev-cn-openai-baseai-tg-bot/src/models",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/honey/Projects/Nodejs Apps/Telegram Related /Telegram_Bot/misc/safe-dev-cn-openai-baseai-tg-bot/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/honey/Projects/Nodejs Apps/Telegram Related /Telegram_Bot/misc/safe-dev-cn-openai-baseai-tg-bot/src/helpers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/honey/Projects/Nodejs Apps/Telegram Related /Telegram_Bot/misc/safe-dev-cn-openai-baseai-tg-bot/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/helpers" />
       <recent name="$PROJECT_DIR$/src/models" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -78,7 +72,8 @@
       <workItem from="1675879591341" duration="827000" />
       <workItem from="1675885287568" duration="131000" />
       <workItem from="1677685243945" duration="206000" />
-      <workItem from="1677685461803" duration="1115000" />
+      <workItem from="1677685461803" duration="3790000" />
+      <workItem from="1677765116506" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="removed mongodb">
       <created>1675880077970</created>
@@ -108,5 +103,15 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/helpers/startMongo.ts</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
